@@ -100,6 +100,49 @@ header p {
 	box-sizing: border-box;
 }
 
+
+/* Table styles */
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.col-item-name {
+	width: 60%;
+}
+
+.col-item-aisle,
+.col-item-price,
+.col-item-qty  {
+	width: 10%;
+}
+
+table th {
+	text-align: left;
+	background-color: #869960;
+	color: #FFF;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+
+table th,
+table td {
+	border: 1px solid #869960;
+	padding: 10px;
+	vertical-align: top;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: #e5e9dc;
+}
+
+table.grocery-list tr :nth-child(2),
+table.grocery-list tr :nth-child(3),
+table.grocery-list tr :nth-child(4) {
+	text-align: center;
+}
+
 .sidebar {
 	width: 34%;
 	float: left;
